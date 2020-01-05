@@ -2,5 +2,8 @@ image:
   file: .gitpod/Dockerfile
   context: .gitpod
 
+ports:
+  - port: 8888
+
 tasks:
   - command: conda activate pycon2019
