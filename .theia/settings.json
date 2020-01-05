@@ -1,4 +1,4 @@
 {
    "python.pythonPath": "/opt/conda/envs/pycon2019/bin/python",
-   "python.dataScience.jupyterServerURI": "http://127.0.0.1:8888/"
+   "python.dataScience.jupyterServerURI": "http://127.0.0.1:8888/?token=8e2c22147ee"
 }
