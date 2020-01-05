@@ -11,3 +11,6 @@ tasks:
     command: |
       conda activate pycon2019
       jupyter notebook --no-browser --notebook-dir=$GITPOD_REPO_ROOT --ip='0.0.0.0' --NotebookApp.token='8e2c22147ee' --NotebookApp.iopub_data_rate_limit=10000000000.0
+  - command: |
+      gp open demo_autoreload.py
+      gp open "1 - Beyond Plain Python.ipynb"
