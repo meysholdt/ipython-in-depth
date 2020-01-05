@@ -4,6 +4,10 @@ image:
 
 ports:
   - port: 8888
+    onOpen: ignore
 
 tasks:
-  - command: conda activate pycon2019
+  - name: Jupyter
+    command: |
+      conda activate pycon2019
+      jupyter notebook --ip='0.0.0.0' --NotebookApp.token='' --NotebookApp.password=''
